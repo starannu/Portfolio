@@ -3,38 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Sneha Tarannum Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero">
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    
-    <section id="portfolio">
-        <h2>My Work</h2>
-        <div class="projects">
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Short description of the project.</p>
+    <nav class="navigation">
+        <div class="nav-links">
+            <div><a href="#projects">Explore projects</a></div>
+            <div><a href="#contact">Contact</a></div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="logo">
+            <div>Sneha</div>
+            <div>Tarannum</div>
+        </div>
+        <div class="text-block">
+            <p class="main-description">A virtual world educational game, designed for those who are curious about history and seeing different perspectives.</p>
+        </div>
+    </section>
+
+    <section class="project-content">
+        <div class="project-section">
+            <h2 class="project-heading">Virtual World</h2>
+            <div class="project-layout">
+                <div class="image-container">
+                    <div class="slideshow">
+                        <div class="slides">
+                            <img src="cliff.jpeg" alt="Project Image" class="project-image active">
+                            <img src="j.jpeg" alt="Project Image" class="project-image">
+                            <img src="cliff.jpeg" alt="Project Image" class="project-image">
+                        </div>
+                        <div class="slideshow-nav">
+                            <button class="prev-slide" aria-label="Previous slide">←</button>
+                            <div class="slide-dots"></div>
+                            <button class="next-slide" aria-label="Next slide">→</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-block">
+                    <p class="description">Manage team coordination, visual design, and educational content development to ensure a cohesive and engaging simulation experience.</p>
+                </div>
             </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Short description of the project.</p>
+        </div>
+
+        <div class="project-section">
+            <h2 class="project-heading">Game Case</h2>
+            <div class="project-layout">
+                <div class="image-container">
+                    <img src="land.jpeg" alt="Project Image" class="project-image">
+                </div>
+                <div class="text-block">
+                    <p class="description">Game Case provides a dedicated platform for gamers to catalog, track, and celebrate their game collections and activities.</p>
+                </div>
             </div>
         </div>
     </section>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>A short bio goes here.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-    </section>
-    
+
+    <footer>
+        <a href="https://www.linkedin.com/in/snehatarannum" target="_blank" class="social-link">LinkedIn</a>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
