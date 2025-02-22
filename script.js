@@ -1,5 +1,6 @@
 // Navigation color change
 // nav
+
 document.addEventListener('scroll', () => 
     {
     const navLinks = document.querySelectorAll('.nav-links a');
